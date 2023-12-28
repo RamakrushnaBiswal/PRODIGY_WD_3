@@ -1,0 +1,37 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #353535;
+    font-size: 52px;
+  }
+  
+  .stopwatch {
+    text-align: center;
+    border: 2px solid red;
+    padding: 150px;
+    background: #fff;
+    border-radius: 20px;
+    filter: drop-shadow(5px 3px 12px #000);
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 12px;
+  }
+  button:hover{
+    filter: drop-shadow(5px 3px 12px #000);
+  }
+  
