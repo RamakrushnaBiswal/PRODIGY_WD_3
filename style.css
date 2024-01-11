@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lato:ital@1&family=Open+Sans:wght@300&family=Poppins:wght@400;500&family=Roboto+Condensed:wght@600&display=swap');
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #353535;
+    background: #d07c7c;
     font-size: 52px;
   }
   
   .stopwatch {
     text-align: center;
     border: 2px solid red;
-    padding: 60px;
+    padding: 40px;
     background: #fff;
     border-radius: 20px;
     filter: drop-shadow(5px 3px 12px #000);
